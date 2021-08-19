@@ -8,6 +8,12 @@ body{
     --primary-color: #6C63FF;
 }
 
+
+hr {
+    margin: 3rem 0rem;
+}
+
+
 /* container */
 .container{
     padding-left: 1rem;
