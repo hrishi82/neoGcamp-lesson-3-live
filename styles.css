@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -6,6 +6,8 @@ body{
 
 :root{
     --primary-color: #6C63FF;
+    --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
 }
 
 
@@ -83,6 +85,49 @@ hr {
 .navigation .link-active{
     font-weight: bold;
 }
+
+
+
+/* header */
+.hero {
+    padding: 2rem;
+}
+
+
+.hero .hero-img{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+
+.hero .hero-heading{
+    color: var(--dark-gray);
+    padding-top: 1rem;
+
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color)
+}
+
+
+/* section */
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+
+
+
 
 
 
