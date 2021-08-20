@@ -35,6 +35,8 @@ hr {
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -92,6 +94,7 @@ hr {
 /* header */
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 
@@ -105,11 +108,13 @@ hr {
 .hero .hero-heading{
     color: var(--dark-gray);
     padding-top: 1rem;
+    text-align: center;
 
 }
 
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color)
+
 }
 
 
@@ -145,7 +150,11 @@ hr {
     padding-inline-start: 0px;
 }
 
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 
+}
 
 
 
