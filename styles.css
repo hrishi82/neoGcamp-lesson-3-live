@@ -157,6 +157,24 @@ hr {
 }
 
 
+.showcase-list{
+    padding: 2rem 0rem;
+}
 
 
+.blog-heading{
+    padding-top: 5rem;
+}
 
+
+.blog-paragraph{
+    padding-top: 2rem;
+}
+
+
+.container  .blog-img{
+    padding-top: 1rem;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
