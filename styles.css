@@ -6,8 +6,8 @@ body{
 }
 
 :root{
-    --primary-color: #6C63FF;
-    --dark-gray: #6B7280;
+    --primary-color: black;
+    --highlight-color: #ef233c;
     --off-white: #F3F4F6;
 }
 
@@ -87,6 +87,8 @@ hr {
 
 .navigation .link-active{
     font-weight: bold;
+    border: 2.5px solid white;
+    border-radius: 2rem;
 }
 
 
@@ -106,14 +108,14 @@ hr {
 
 
 .hero .hero-heading{
-    color: var(--dark-gray);
+    color: var(--primary-color);
     padding-top: 1rem;
     text-align: center;
 
 }
 
 .hero .hero-heading .heading-inverted{
-    color: var(--primary-color)
+    color: var(--highlight-color)
 
 }
 
