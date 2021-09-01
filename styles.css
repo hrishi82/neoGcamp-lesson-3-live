@@ -3,12 +3,14 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    background-color: #dee2e6;
 }
 
 :root{
     --primary-color: black;
     --highlight-color: #ef233c;
-    --off-white: #F3F4F6;
+    --off-white: #ced4da;
+    /* #F3F4F6 */
 }
 
 
