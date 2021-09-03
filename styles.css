@@ -118,7 +118,10 @@ hr {
 
 .hero .hero-heading .heading-inverted{
     color: var(--highlight-color)
+}
 
+.blog-heading .heading-inverted{
+    color: var(--highlight-color)
 }
 
 
