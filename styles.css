@@ -258,8 +258,8 @@ hr {
 
 .back-to-blog-page-btn{
     background-color: #dee2e6;
-    padding: 15px 20px;
-    font-size: 1.3rem;
+    padding: 15px 15px;
+    font-size: 1.1rem;
     border: 1px solid black;
     border-radius: 2rem;
 
@@ -271,6 +271,6 @@ hr {
 }
 
 #back-button-img{
-    height: 1.8rem;
-    width: 1.8rem;
+    height: 1.2rem;
+    width: 1.2rem;
 }
