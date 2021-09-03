@@ -10,6 +10,7 @@ body{
     --primary-color: black;
     --highlight-color: #ef233c;
     --off-white: #ced4da;
+    --imp-word: orange;
     /* #F3F4F6 */
 }
 
@@ -117,11 +118,11 @@ hr {
 }
 
 .hero .hero-heading .heading-inverted{
-    color: var(--highlight-color)
+    color: var(--highlight-color);
 }
 
 .blog-heading .heading-inverted{
-    color: var(--highlight-color)
+    color: var(--highlight-color);
 }
 
 
@@ -184,6 +185,16 @@ hr {
     padding-top: 1rem;
     max-width: 400px;
     display: block;
-    
+  
+}
+
+.highlight-word{
+    color: var(--highlight-color);
+}
+
+
+#blog-words-link{
+    text-decoration: none;
+    color: var(--highlight-color);
     
 }
