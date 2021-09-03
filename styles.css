@@ -247,3 +247,30 @@ hr {
 #blank-para-for-spacing{
     margin-bottom: 7rem;
 }
+
+
+.back-button-div{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    
+    
+}
+
+.back-to-blog-page-btn{
+    background-color: #dee2e6;
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+
+}
+
+#back-to-blog-page-anchor-link{
+    text-decoration: none;
+    color: black;
+}
+
+#back-button-img{
+    height: 1.8rem;
+    width: 1.8rem;
+}
