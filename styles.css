@@ -24,6 +24,7 @@ hr {
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
 
 .container-center{
@@ -170,23 +171,7 @@ hr {
 }
 
 
-.blog-heading{
-    padding-top: 5rem;
-}
 
-
-.blog-paragraph{
-    padding-top: 2rem;
-
-}
-
-
-.container  .blog-img{
-    padding-top: 1rem;
-    max-width: 400px;
-    display: block;
-  
-}
 
 .highlight-word{
     color: var(--highlight-color);
@@ -197,4 +182,68 @@ hr {
     text-decoration: none;
     color: var(--highlight-color);
     
+}
+
+
+.blog-article-preview-heading{
+    margin-top: 5rem;
+}
+
+.blog-article-preview-para{
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+.blog-heading{
+    padding-top: 5rem;
+}
+
+
+.blog-paragraph{
+    padding-top: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+
+.container .blog-img{
+    padding-top: 1rem;
+    max-width: 400px;
+    display: block;
+}
+
+
+.topic-list{
+    margin: 0;
+    padding: 0;
+}
+
+.blog-topic-img{
+    margin-top: 1.5rem;
+}
+
+.topics{
+    margin-top: 4rem;
+}
+
+#misc-points{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.end-blog-paragraph{
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+#blank-para-for-spacing{
+    margin-bottom: 7rem;
 }
