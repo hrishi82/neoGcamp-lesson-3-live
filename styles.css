@@ -42,17 +42,39 @@ hr {
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
 }
+
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    transition: background-color 0.4s;
 }
+
+.link-primary:hover{
+    background-color: var(--highlight-color);
+    cursor: pointer;
+    
+}
+
+
 
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    transition: color 0.4s, border 0.4s, background-color 0.4s;
 }
+
+.link-secondary:hover{
+    border: none;
+    background-color: var(--highlight-color);
+    color: white;
+    cursor: pointer;
+    
+    
+}
+
+
 
 
 .list-non-bullet{
